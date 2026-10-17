@@ -1,0 +1,10 @@
+# CMake build output
+/build/
+/build-*/
+/cmake-build-*/
+
+# CLion project settings
+/.idea/
+
+# macOS metadata
+.DS_Store
