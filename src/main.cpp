@@ -22,7 +22,7 @@ int main()
             << "Stream length: " << stream.size()
             << " | Seed: " << seed
             << " | P(1): 0.5\n"
-            << "Baseline window: 1000 | Modified window: 500\n\n";
+            << "Baseline window: 1500 | Modified window: 500\n\n";
 
   std::cout << std::right
             << std::setw(10) << "Window"
@@ -33,9 +33,9 @@ int main()
             << std::setw(10) << "Buckets"
             << '\n';
 
-  // run baseline experiment with window size set to 1000
-  experiment(stream, 1000);
-  // run modified experiment with window size divided by 2
+  // run baseline experiment with window size set to 1500
+  experiment(stream, 1500);
+  // run modified experiment with window size divided by 3
   experiment(stream, 500);
 
   return 0;
